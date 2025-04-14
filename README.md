@@ -100,9 +100,7 @@
 
 -  **For your convenience, we now provide the video and annotations for the Hawk dataset. You can download them using the Hugglingface: [DOWNLOAD](https://huggingface.co/datasets/Jiaqi-hkust/hawk).**
 
-- Traditional Data Acquisition Method:
-
-  - DOWNLOAD all video datasets for their original dources.
+- Traditional Data Acquisition Method (from their original sources).
   1. [CUHK_Avenue](https://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html)
   2. [DoTA](https://github.com/MoonBlvd/Detection-of-Traffic-Anomaly)
   3. [Ped1](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm)
@@ -148,19 +146,19 @@
       readme
   
       ```
-      Note：the data path should be redefined.
+      Note： the data path should be redefined.
 
 
 ### 🔨 *Configuration*
 
 - The configuration files for [`training`](/configs/train_configs) including two stages.
 
-- Replace the following part as your own path:
+- Replace the following part with your own path:
 
   ```
   llama_model: ".../Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf"
 
-  # The ckpt of vision branch after stage1 pretrained, (only for stage 2)
+  # The ckpt of the vision branch after stage1 pretrained, (only for stage 2)
   ckpt: ".../checkpoint.pth" 
   ```
 
