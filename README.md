@@ -65,7 +65,7 @@
 - If you wish to leverage the model for our anomaly understanding, please opt for the **Hawk_Finetuned** checkpoint.
 
 
-## ⏳ **Domo**
+## ⏳ **Demo**
 
 - The configuration files for [`demo`](/configs/eval_configs/eval.yaml).
 
