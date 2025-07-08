@@ -133,7 +133,7 @@ def gradio_answer(gr_video, chatbot, chat_state, img_list, num_beams, temperatur
     chatbot[-1][1] = llm_message
     print(chat_state.get_prompt())
     print(chat_state)
-    return chatbot, chat_state, img_list.to("cpu")
+    return chatbot, chat_state, img_list
 
 title = """
 <div align="center">
